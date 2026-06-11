@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>🐍 SnakeButWrong</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🐍 SnakeButWrong</h1>
+<div id="tagline">controls scramble every 30 seconds</div>
+
+<div id="hud">
+  <div>score <span id="score-val">0</span></div>
+  <div>best <span id="best-val">0</span></div>
+  <div>level <span id="level-val">1</span></div>
+</div>
+
+<div id="mode-wrap">
+  <div id="mode-badge">Normal</div>
+</div>
+
+<div id="timer-wrap"><div id="timer-bar"></div></div>
+
+<div id="canvas-outer">
+  <canvas id="game" width="500" height="500"></canvas>
+
+  <div id="canvas-flash"></div>
+
+  <div id="overlay">
+    <h2>🐍 SnakeButWrong</h2>
+    <p>Arrow keys or WASD to move.<br>Controls remap every 30s — adapt or die.</p>
+    <button class="play-btn" onclick="startGame()">play</button>
+  </div>
+</div>
+
+<div id="flash"></div>
+
+<div id="dpad">
+  <div class="drow">
+    <button class="dpad-btn" id="btn-UP">
+      <span class="btn-arrow">↑</span>
+      <span class="btn-label">up</span>
+    </button>
+  </div>
+
+  <div class="drow">
+    <button class="dpad-btn" id="btn-LEFT">
+      <span class="btn-arrow">←</span>
+      <span class="btn-label">left</span>
+    </button>
+
+    <button class="dpad-btn" id="btn-DOWN">
+      <span class="btn-arrow">↓</span>
+      <span class="btn-label">down</span>
+    </button>
+
+    <button class="dpad-btn" id="btn-RIGHT">
+      <span class="btn-arrow">→</span>
+      <span class="btn-label">right</span>
+    </button>
+  </div>
+</div>
+
+<div id="dpad-label">tap buttons · swipe canvas</div>
+
+<div id="legend">arrow keys / WASD on desktop</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
