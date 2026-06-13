@@ -1,35 +1,41 @@
-🐍 SnakeButWrong
+# 🐍 SnakeButWrong
 
-A chaotic twist on the classic Snake game where the controls randomly change every 30 seconds. Just when you think you've mastered the game, everything changes.
+> **The game that turns confidence into panic every 30 seconds.**
 
-🎮 Play the Game
-
-Guide the snake, collect food, and survive as long as possible — but beware: your controls won't stay the same forever.
-
-Current Control Sets May Include:
-
-- Normal controls
-- Reversed controls
-- Rotated controls
-- Randomized directions
-
-Every 30 seconds, the game switches to a new control scheme, forcing you to adapt on the fly.
+A chaotic twist on the classic Snake game where the controls change every 30 seconds. Just when you think you've mastered the game, everything changes.
 
 ---
 
-✨ Features
+## 🎮 Play the Game
+
+Guide the snake, collect food, and survive as long as possible — but beware: your controls won't stay the same forever.
+
+---
+
+## ✨ Features
 
 - 🐍 Classic Snake gameplay
 - 🔀 Controls change every 30 seconds
 - 🍎 Food collection and score tracking
-- ⚡ Fast-paced and increasingly confusing gameplay
-- 🎮 Runs directly in the browser
+- ⚡ Increasing chaos and difficulty
+- 🌐 Runs directly in the browser
 - 📱 Responsive design
 - 🚀 No installation required
 
 ---
 
-🛠️ Built With
+## 🕹️ How to Play
+
+1. Use the arrow keys to move the snake.
+2. Eat food to increase your score.
+3. Avoid crashing into walls or yourself.
+4. Adapt when the controls suddenly change every 30 seconds.
+
+**Can your muscle memory survive the chaos?**
+
+---
+
+## 🛠 Built With
 
 - HTML5
 - CSS3
@@ -37,29 +43,33 @@ Every 30 seconds, the game switches to a new control scheme, forcing you to adap
 
 ---
 
-🚀 Getting Started
+## 🚀 Installation
 
-1. Clone the repository:
+Clone the repository:
 
-git clone https://github.com/yourusername/SnakeButWrong.git
+```bash
+git clone https://github.com/YOUR_USERNAME/SnakeButWrong.git
+cd SnakeButWrong
 
-2. Open the project folder.
-
-3. Launch "index.html" in your browser.
+Then open "index.html" in your browser.
 
 ---
 
-🎯 Objective
+📂 Project Structure
 
-Eat as much food as possible and survive the constantly changing controls.
-
-Can your brain adapt faster than the chaos?
+SnakeButWrong/
+│
+├── index.html
+├── style.css
+├── script.js
+├── screenshot.png
+└── README.md
 
 ---
 
 📸 Screenshot
 
-Add a screenshot of the game here:
+Add your screenshot here:
 
 ![SnakeButWrong Screenshot](screenshot.png)
 
@@ -77,12 +87,18 @@ That's exactly why it exists.
 
 🤝 Contributing
 
-Contributions, ideas, and improvements are welcome.
+Contributions are welcome!
 
 1. Fork the repository
-2. Create a feature branch
+2. Create your feature branch
 3. Commit your changes
-4. Submit a pull request
+4. Open a pull request
+
+---
+
+⭐ Support
+
+If you enjoy the game, consider giving this repository a star!
 
 ---
 
@@ -92,4 +108,4 @@ This project is licensed under the MIT License.
 
 ---
 
-"The snake isn't fighting the walls. You're fighting your own muscle memory."
+🐍 "You're not fighting the snake. You're fighting your own muscle memory."
