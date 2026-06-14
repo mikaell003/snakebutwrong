@@ -2,7 +2,7 @@
 
 > **The game that turns confidence into panic every 30 seconds.**
 
-A chaotic twist on the classic Snake game where the controls change every 30 seconds. Just when you think you've mastered the game, everything changes.
+🐍A chaotic browser Snake game where the controls randomly change every 30 seconds.
 
 ---
 
