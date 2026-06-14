@@ -1,26 +1,16 @@
 # 🐍 SnakeButWrong
 
-> **The game that turns confidence into panic every 30 seconds.**
+A Snake game where the controls betray you every 30 seconds.
 
-🐍A chaotic browser Snake game where the controls randomly change every 30 seconds.
+🎮 Play here:
+https://mikaell003.github.io/snakebutwrong/
 
----
+## Features
 
-## 🎮 Play the Game
-
-Guide the snake, collect food, and survive as long as possible — but beware: your controls won't stay the same forever.
-
----
-
-## ✨ Features
-
-- 🐍 Classic Snake gameplay
-- 🔀 Controls change every 30 seconds
-- 🍎 Food collection and score tracking
-- ⚡ Increasing chaos and difficulty
-- 🌐 Runs directly in the browser
-- 📱 Responsive design
-- 🚀 No installation required
+- Controls change every 30 seconds
+- Increasing difficulty
+- High score tracking
+- Pure HTML, CSS and JavaScript
 
 ---
 
