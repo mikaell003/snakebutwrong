@@ -3,7 +3,7 @@
 A Snake game where the controls betray you every 30 seconds.
 
 🎮 Play here:
-https://mikaell003.github.io/snakebutwrong/
+https://snakebutwrong.netlify.app/
 
 ## Features
 
