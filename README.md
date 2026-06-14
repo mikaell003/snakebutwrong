@@ -48,7 +48,7 @@ Guide the snake, collect food, and survive as long as possible — but beware: y
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/SnakeButWrong.git
+git clone https://github.com/mikaell003/SnakeButWrong.git
 cd SnakeButWrong
 
 Then open "index.html" in your browser.
@@ -62,18 +62,10 @@ SnakeButWrong/
 ├── index.html
 ├── style.css
 ├── script.js
-├── screenshot.png
 └── README.md
 
 ---
 
-📸 Screenshot
-
-Add your screenshot here:
-
-![SnakeButWrong Screenshot](screenshot.png)
-
----
 
 💡 Inspiration
 
