@@ -1,3 +1,44 @@
+
+// ===== ABOUT DEVELOPER BUTTON =====
+
+// Create button
+const aboutBtn = document.createElement("button");
+aboutBtn.innerText = "👨‍💻 About";
+aboutBtn.style.position = "fixed";
+aboutBtn.style.bottom = "20px";
+aboutBtn.style.right = "20px";
+aboutBtn.style.padding = "10px 15px";
+aboutBtn.style.background = "#32CD32";
+aboutBtn.style.color = "white";
+aboutBtn.style.border = "none";
+aboutBtn.style.borderRadius = "8px";
+aboutBtn.style.cursor = "pointer";
+aboutBtn.style.zIndex = "1000";
+
+document.body.appendChild(aboutBtn);
+
+// Show popup when clicked
+aboutBtn.addEventListener("click", () => {
+    alert(
+`🐍 SnakeButWrong
+
+Created by Michael Owen
+
+Hi! I'm Mikael, a developer who enjoys building fun and unusual browser games.
+
+SnakeButWrong was created from one simple idea:
+
+"What if Snake suddenly stopped trusting your muscle memory?"
+
+Built with:
+• HTML
+• CSS
+• JavaScript
+
+Thanks for playing! 🐍`
+    );
+});
+
 const canvas = document.getElementById('game');
 const ctx    = canvas.getContext('2d');
 const BOX = 20, COLS = canvas.width/BOX, ROWS = canvas.height/BOX;
