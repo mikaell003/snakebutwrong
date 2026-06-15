@@ -1,42 +1,52 @@
+const makeBtn = (txt, side, color, fn) => {
+  const b = document.createElement("button");
+  b.innerHTML = txt;
+  b.style = `position:fixed;bottom:20px;${side}:20px;padding:10px 15px;
+             background:${color};color:#fff;border:none;border-radius:10px;
+             cursor:pointer;z-index:1000`;
+  b.onclick = fn;
+  document.body.appendChild(b);
+};
 
-// ===== ABOUT DEVELOPER BUTTON =====
+makeBtn("👨‍💻 About", "right", "#32CD32", () =>
+  alert(`🐍 SnakeButWrong
 
-// Create button
-const aboutBtn = document.createElement("button");
-aboutBtn.innerText = "👨‍💻 About";
-aboutBtn.style.position = "fixed";
-aboutBtn.style.bottom = "20px";
-aboutBtn.style.right = "20px";
-aboutBtn.style.padding = "10px 15px";
-aboutBtn.style.background = "#32CD32";
-aboutBtn.style.color = "white";
-aboutBtn.style.border = "none";
-aboutBtn.style.borderRadius = "8px";
-aboutBtn.style.cursor = "pointer";
-aboutBtn.style.zIndex = "1000";
+Created by Mikael
 
-document.body.appendChild(aboutBtn);
+SnakeButWrong is a chaotic twist on the classic Snake game where the controls change every 30 seconds.
 
-// Show popup when clicked
-aboutBtn.addEventListener("click", () => {
-    alert(
-`🐍 SnakeButWrong
+Your greatest enemy isn't the walls.
 
-Created by Michael Owen
+It's your own muscle memory.
 
-Hi! I'm Mikael, a developer who enjoys building fun and unusual browser games.
+I love building fun and unusual experiences for the web.
 
-SnakeButWrong was created from one simple idea:
+More games coming soon!
 
-"What if Snake suddenly stopped trusting your muscle memory?"
+Thanks for playing SnakeButWrong! 🐍💀`)
+);
 
-Built with:
-• HTML
-• CSS
-• JavaScript
+makeBtn("🚀 Share", "left", "#ff9800", async () => {
+  const data = {
+    title: "SnakeButWrong 🐍",
+    text: `🐍 SnakeButWrong
 
-Thanks for playing! 🐍`
-    );
+The snake is normal.
+
+The controls are not.
+
+Every 30 seconds, your muscle memory betrays you.
+
+Can you survive the chaos? 💀`,
+    url: "https://snakebutwrong.netlify.app"
+  };
+
+  navigator.share
+    ? await navigator.share(data)
+    : (
+        navigator.clipboard.writeText(data.url),
+        alert("Link copied!")
+      );
 });
 
 const canvas = document.getElementById('game');
